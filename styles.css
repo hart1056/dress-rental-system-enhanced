@@ -1,0 +1,99 @@
+
+/* Basic website style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 10px;
+}
+
+/* Main header */
+header {
+    background-color: #713f4b;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Form and table sections */
+.form-card,
+.table-card {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Form labels */
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+input,
+select {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Buttons and links */
+button,
+.view-btn,
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    padding: 7px 10px;
+    margin: 3px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button,
+.view-btn {
+    background-color: #713f4b;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #eee;
+    color: black;
+}
+
+.delete-btn {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Keep wide tables usable */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.actions {
+    min-width: 250px;
+}
+
+.empty-message {
+    color: #555;
+}
